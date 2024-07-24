@@ -108,5 +108,57 @@ public class JavaConditional {
 
         }
     }
+    public static void pratices9(){
+        for (int i=1;i<=5;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println("");
+        }
+    }
+
+    public static void pratices10(int b){
+        for (int i=1;i<=b;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print(b);
+            }
+            System.out.println("");
+        }
+    }
+
+    public static void pratices11(int b){
+        for (int i=1;i<=b;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print(i);
+            }
+            System.out.println("");
+        }
+    }
+
+    public static void pratices12(){
+        int k = 1;
+        for (int i=0;i<=5;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print((k++)+" ");
+            }
+            System.out.println("");
+        }
+    }
+    public static void pratices13(){
+        int number = 5;
+        for (int i=1;i<=number;i++){
+            for (int j=number;j>=i;j--){
+                System.out.print(" ");
+            }
+            for (int k = 1;k<= i;k++){
+                System.out.print(number);
+                for (int w = k;w<=k;w++){
+                    System.out.print(number);
+                }
+            }
+            System.out.println("");
+        }
+
+    }
 
 }
