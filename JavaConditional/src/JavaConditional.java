@@ -32,4 +32,31 @@ public class JavaConditional {
             }
         }
     }
+    public static void pratices3(){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("1-7 araliginda her hansisa bir reqem yazin");
+        String[] wednessDays = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
+        int wednesDaysEnterNumber = sc.nextInt();
+        if (wednesDaysEnterNumber < 1 || wednesDaysEnterNumber > 7){
+            System.out.println("Daxil edilen reqem hefte ici cedveline uygun deyil,heftede 7 gun var..");
+            System.exit(0);
+        }
+
+        if (wednesDaysEnterNumber == 1){
+            System.out.println(wednessDays[0]);
+        }else if (wednesDaysEnterNumber == 2){
+            System.out.println(wednessDays[1]);
+        }else if (wednesDaysEnterNumber == 3){
+            System.out.println(wednessDays[2]);
+        }else if (wednesDaysEnterNumber == 4){
+            System.out.println(wednessDays[3]);
+        }else if (wednesDaysEnterNumber == 5){
+            System.out.println(wednessDays[4]);
+        }else if (wednesDaysEnterNumber == 6){
+            System.out.println(wednessDays[5]);
+        }else if (wednesDaysEnterNumber == 7){
+            System.out.println(wednessDays[6]);
+        }
+    }
 }
