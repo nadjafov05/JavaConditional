@@ -59,4 +59,25 @@ public class JavaConditional {
             System.out.println(wednessDays[6]);
         }
     }
+    public static void  pratices4(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("reqem daxil edin: ");
+        int enterNumber = sc.nextInt();
+
+        for (int i=1;i<=enterNumber;i++){
+            System.out.println(i);
+        }
+    }
+    public static void pratices5(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("reqem daxil edin..");
+        int cem = 0;
+        int enter = sc.nextInt();
+
+        for (int i=1;i<=enter;i++){
+            System.out.println(i);
+            cem+=i;
+        }
+        System.out.println(cem);
+    }
 }
