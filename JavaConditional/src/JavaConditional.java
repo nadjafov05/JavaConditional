@@ -80,4 +80,26 @@ public class JavaConditional {
         }
         System.out.println(cem);
     }
+    public static void pratices6(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("eded daxil edin: ");
+        int cem =0;
+        int enter = sc.nextInt();
+
+        for (int i=1;i<=enter;i++){
+            cem+=i;
+        }
+        double ss  = cem / 5;
+        System.out.println("daxil edilen cemin toplamini: " + cem);
+        System.out.println("daxil edilen reqemin orta hesabini tap,bolunen qaliqi" + ss);
+    }
+    public static void pratices7(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter max number");
+        int enterN = sc.nextInt();
+        for (int i=1;i<=enterN;i++){
+            System.out.println(i*i*i);
+        }
+    }
+
 }
