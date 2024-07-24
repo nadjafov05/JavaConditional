@@ -102,4 +102,11 @@ public class JavaConditional {
         }
     }
 
+    public static void pratices8(int n){
+        for (int i=1;i<=n;i++){
+            System.out.println(n + " * " + i + " = " + n*i);
+
+        }
+    }
+
 }
