@@ -145,18 +145,20 @@ public class JavaConditional {
         }
     }
     public static void pratices13(){
-        int number = 5;
-        for (int i=1;i<=number;i++){
-            for (int j=number;j>=i;j--){
-                System.out.print(" ");
-            }
-            for (int k = 1;k<= i;k++){
-                System.out.print(number);
-                for (int w = k;w<=k;w++){
-                    System.out.print(number);
-                }
-            }
-            System.out.println("");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("a deyisenine deyer verin ");
+        double a = sc.nextDouble();
+        System.out.print("b deyisenine deyer verin ");
+        double b = sc.nextDouble();
+
+
+        a = Math.round(a * 100) / 100;
+        b = Math.round(b * 100) / 100;
+
+        if (a == b){
+            System.out.println("daxil edilen :" + a + " ve " + b + " reqemleri bereberdi");
+        }else {
+            System.out.println("daxil edilen :" + a + " ve " + b + " reqemleri bereber deyil");
         }
 
     }
